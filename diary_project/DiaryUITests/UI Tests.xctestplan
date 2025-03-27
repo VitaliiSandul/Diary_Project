@@ -1,0 +1,56 @@
+{
+  "configurations" : [
+    {
+      "id" : "450F1063-E3DE-4211-A30C-ED114E2D3749",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:diary_project.xcodeproj",
+      "identifier" : "F27542682CD91672004BDC28",
+      "name" : "diary_project"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:diary_project.xcodeproj",
+        "identifier" : "F27542782CD91674004BDC28",
+        "name" : "diary_projectTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:diary_project.xcodeproj",
+        "identifier" : "F27542822CD91674004BDC28",
+        "name" : "diary_projectUITests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:diary_project.xcodeproj",
+        "identifier" : "F26A3E1A2CFCCB8300B822C7",
+        "name" : "DataProviderTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:diary_project.xcodeproj",
+        "identifier" : "F26A3E272CFD1C4D00B822C7",
+        "name" : "DiaryUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
